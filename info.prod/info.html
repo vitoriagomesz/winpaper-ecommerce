@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Win Paper</title>
+  <link rel="stylesheet" type="text/css" href="info.css">
+</head>
+
+<body>
+  <header id="topo">
+    <a class="favoritar" href="#">
+      <img src="wp-icones/icones-inicio/favoritar.svg" alt="favoritar">
+    </a>
+
+    <a class="logonav" href="../index.html">
+      <img src="wp-icones/logo_nav.svg" alt="logo winpaper">
+    </a>
+
+    <a class="pesquisar" href="#">
+      <img src="wp-icones/icones-inicio/pesquisar.svg" alt="pesquisar">
+    </a>
+
+    <a class="conta" href="../login/login.html">
+      <img src="wp-icones/icones-inicio/conta.svg" alt="conta">
+    </a>
+
+    <a class="carrinho" href="#">
+      <img src="wp-icones/icones-inicio/carrinho.svg" alt="carrinho">
+    </a>
+  </header>
+
+  <main class="principal">
+
+    <nav id="menu">
+      <ul>
+        <li><a href="../index.html">início</a></li>
+        <li><a href="../produtos/produtos.html">produtos</a>
+          <div id="sub-menu">
+            <ul>
+              <li><a href="#">Albúm de Memórias</a></li>
+              <li><a href="#">Blocos de Anotações</a></li>
+              <li><a href="#">Cadernos Argolados</a></li>
+              <li><a href="#">Cadernos A5</a></li>
+              <li><a href="#">Cadernos Universitários</a></li>
+              <li><a href="#">Réfil de Folhas</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li><a href="#">sobre a wp</a></li>
+        <li><a href="#">dúvidas</a>
+          <div id="sub-menu1">
+            <ul>
+              <li><a href="#">Perguntas frequentes</a></li>
+              <li><a href="#">Troca e devolução</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="infos">
+
+      <h4 class="titulo">Caderno Argolado A5</h4>
+      <p>descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição
+        descrição descrição descrição descrição descrição descrição descrição descrição
+      </p>
+      <h4 class="preco">R$ 00,00</h4>
+
+      <!-- contador de quantidade do produto -->
+      <div class="container1">
+        <button id="decrement" onclick="stepper(this)"> - </button>
+        <input type="number" min="0" max="10" step="1" value="1" id="my-input" readonly>
+        <button id="increment" onclick="stepper(this)"> + </button>
+      </div>
+
+      <script src="info.js"></script>
+
+      <div class="botao">
+        <a href="#" class="comprar">comprar</a>
+      </div>
+
+      <div class="container-cep">
+        <form>
+          <input type="text" id="cep" placeholder="Seu cep" maxlength="8">
+        </form>
+      </div>
+
+      <div class="botao-calcular">
+        <a href="#" class="calcular">calcular</a>
+      </div>
+
+      <div class="duvida-cep">
+        <a href="https://buscacepinter.correios.com.br/app/endereco/index.php">Não sei meu CEP</a>
+      </div>
+
+      <section class="detalhe-produto">
+        <img class="img-prod" src="wp-icones/imgs/Prod1.png" alt="produtos">
+      </section>
+
+      <section class="detalhe-subproduto">
+        <img class="img-prod1" src="wp-icones/imgs/Prod1.png" alt="produtos">
+      </section>
+
+      <section class="detalhe-subproduto1">
+        <img class="img-prod1" src="wp-icones/imgs/Prod1.png" alt="produtos">
+      </section>
+
+      <section class="detalhe-subproduto2">
+        <img class="img-prod1" src="wp-icones/imgs/Prod1.png" alt="produtos">
+      </section>
+
+      <section class="detalhe-subproduto3">
+        <img class="img-prod1" src="wp-icones/imgs/Prod1.png" alt="produtos">
+      </section>
+    </section>
+
+    <section id="sobre">
+      <div class="container-sobre">
+        <h4><b>SOBRE O PRODUTO</b></h4>
+        <p>descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição
+          descrição descrição descrição descrição descrição descrição descrição descrição descrição escrição descrição
+          descrição descrição descrição descrição descrição descrição descrição descrição descrição
+          descrição descrição descrição descrição descrição descrição descrição descrição escrição descrição descrição
+          descrição descrição descrição descrição descrição descrição descrição descrição
+          descrição descrição descrição descrição descrição descrição descrição descrição</p>
+      </div>
+    </section>
+
+    <section class="titulos">
+      <h4>avalie esse produto ;)</h4>
+    </section>
+
+    <section id="avaliacao">
+      <section class="container-avaliacao">
+        
+      <form>
+          <div class="input-single">
+            <p>nome</p>
+            <input type="text" name="" id="nome" class="input"></input>
+          </div>
+
+          <div class="input-single">
+            <p>e-mail</p>
+            <input type="email" name="" id="email" class="input"></input>
+          </div>
+
+          <div class="input-single">
+            <p>comentário</p>
+            <input type="text" name="" id="comentario" class="input"></input>
+          </div>
+        </form>
+
+      <section class="container-stars">
+        <a href="javascript:void(0)" onclick="Avaliar(1)">
+          <img src="wp-icones/star0.svg" id="s1">
+        </a>
+
+        <a href="javascript:void(0)" onclick="Avaliar(2)">
+          <img src="wp-icones/star0.svg" id="s2">
+        </a>
+
+        <a href="javascript:void(0)" onclick="Avaliar(3)">
+          <img src="wp-icones/star0.svg" id="s3">
+        </a>
+
+        <a href="javascript:void(0)" onclick="Avaliar(4)">
+          <img src="wp-icones/star0.svg" id="s4">
+        </a>
+
+        <a href="javascript:void(0)" onclick="Avaliar(5)">
+          <img src="wp-icones/star0.svg" id="s5">
+        </a>
+
+      </section>
+
+      <div class="container-botao">
+        <div class="botao">
+          <a href="#">avaliar produto</a>
+        </div>
+      </div>
+      
+      </section>
+
+    </section>
+
+    <section class="titulos">
+      <div></div>
+      <h4>você também vai gostar desses produtos aqui!</h4>
+      <img class="confi-img" src="wp-icones/setas-produtos.svg" alt="seta próximo">
+    </section>
+
+    <section id="recomendacao">
+      <section class="produto">
+        <img class="img-produto" src="wp-icones/imgs/Prod1.png" alt="produtos">
+        <p class="nomeproduto">Caderno Argolado Universitário</p>
+        <p class="valor"><b>R$ 54,90</b></p>
+        <div class="botaocomprar">
+          <a href="#" class="comprar">comprar</a>
+          <a href="#"><img class="favoritaramarelo" src="wp-icones/favoritaramarelo.svg" alt="favoritar"></a>
+        </div>
+      </section>
+
+      <section class="produto">
+        <img class="img-produto" src="wp-icones/imgs/Prod1.png" alt="produtos">
+        <p class="nomeproduto">Bloco de Anotações</p>
+        <p class="valor"><b>R$ 19,90</b></p>
+        <div class="botaocomprar">
+          <a href="#" class="comprar">comprar</a>
+          <a href="#"><img class="favoritaramarelo" src="wp-icones/favoritaramarelo.svg" alt="favoritar"></a>
+        </div>
+      </section>
+
+      <section class="produto">
+        <img class="img-produto" src="wp-icones/imgs/Prod1.png" alt="produtos">
+        <p class="nomeproduto">Refil de Folhas A5</p>
+        <p class="valor"><b>R$ 25,00</b></p>
+        <div class="botaocomprar">
+          <a href="#" class="comprar">comprar</a>
+          <a href="#"><img class="favoritaramarelo" src="wp-icones/favoritaramarelo.svg" alt="favoritar"></a>
+        </div>
+      </section>
+
+      <section class="produto">
+        <img class="img-produto" src="wp-icones/imgs/Prod1.png" alt="produtos">
+        <p class="nomeproduto">Refil de Folhas Universitário</p>
+        <p class="valor"><b>R$ 25,90</b></p>
+        <div class="botaocomprar">
+          <a href="#" class="comprar">comprar</a>
+          <a href="#"><img class="favoritaramarelo" src="wp-icones/favoritaramarelo.svg" alt="favoritar"></a>
+        </div>
+      </section>
+    </section>
+ 
+  </main>
+
+  <footer id="footer1">
+    <section>
+      <div class="container">
+
+        <div class="row">
+
+          <h3>sobre a wp</h3>
+          <p>Uma loja em constante processo de criação, a win paper surgiu no mundo pandêmico com o intuito de levar a
+            <strong>criatividade</strong> e a <strong>organização</strong> para o dia a dia das pessoas que mais
+            precisam
+            de uma rotina
+            incrível!
+          </p>
+        </div>
+
+        <div class="linha-vertical"></div>
+
+        <div class="row">
+          <h3>menu</h3>
+          <ul>
+            <li><a class="menu-fixo" href="#">início</a></li>
+            <li><a class="menu-fixo" href="#">produtos</a></li>
+            <li><a class="menu-fixo" href="#">sobre a wp</a></li>
+            <li><a class="menu-fixo" href="#">perguntas frequentes</a></li>
+            <li><a class="menu-fixo" href="#">troca e devolução</a></li>
+          </ul>
+        </div>
+
+        <div class="linha-vertical"></div>
+
+        <div class="outros">
+          <div class="row1">
+
+            <h3>outros</h3>
+            <p>qualquer dúvida, entre em contato conosco no e-mail: <b>contato@winpaper.com</b></p>
+          </div>
+
+          <div class="row1">
+            <h3>wp on-line</h3>
+            <img class="config-img1" src="wp-icones/insta.svg" alt="icone-insta">
+            <img class="config-img2" src="wp-icones/face.svg" alt="icone-face">
+            <img class="config-img3" src="wp-icones/tt.svg" alt="icone-tt">
+          </div>
+        </div>
+      </div>
+
+      <div class="linha-horizontal"></div>
+    </section>
+  </footer>
+
+  <footer id="footer2">
+    <section id="logo-inferior">
+      <div class="container-formas">
+        <div class="row">
+
+          <h3>formas de pagamento</h3>
+          <img class="config-img" src="wp-icones/visa.svg" alt="icone-visa">
+          <img class="config-img" src="wp-icones/mastercard.svg" alt="icone-mastercard">
+          <img class="config-img" src="wp-icones/boleto.svg" alt="icone-boleto">
+          <img class="config-img" src="wp-icones/elo.svg" alt="icone-elo">
+          <img class="config-img" src="wp-icones/mastercard.svg" alt="icone-mastercard">
+        </div>
+
+        <div class="row">
+          <h3>formas de envio</h3>
+          <img class="config-img" src="wp-icones/correios.svg" alt="icone-correios">
+          <img class="config-img" src="wp-icones/sedex.svg" alt="icone-sedex">
+          <img class="config-img" src="wp-icones/pac.svg" alt="icone-pac">
+          <img class="config-img" src="wp-icones/kangu.svg" alt="icone-kangu">
+        </div>
+      </div>
+
+
+      <div class="outros">
+        <img src="wp-icones/Logo.svg" alt="logo">
+      </div>
+    </section>
+
+  </footer>
+
+  <footer id="rodape">
+    <p>Todos os direitos reservados • Win Paper @ 2019</p>
+  </footer>
+
+</body>
+
+</html>
