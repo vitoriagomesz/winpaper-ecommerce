@@ -22,4 +22,4 @@ As the store did not have a website already made, discussed then, take advantage
 
 During the process, we didn't want to lose the essence and tone of voice of the store, and because of that, first, the website layout was carried out in figma. After we finalized the final version and it was approved, we started to program the code in **HTML and CSS** and in the end, we added some functions using **JavaScript**.
 
-You can check the presentation of the final project at: https://www.figma.com/proto/trkMhb7QF4lBqO7li3Av8b/Apresenta%C3%A7%C3%A3o---WEB?node-id=40%3A16&starting-point-node- id=40%3A16
+You can check the presentation of the final project at: https://www.figma.com/proto/trkMhb7QF4lBqO7li3Av8b/Apresenta%C3%A7%C3%A3o---WEB?node-id=40%3A16&starting-point-node-id=40%3A16
