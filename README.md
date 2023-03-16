@@ -1,6 +1,6 @@
 ## Win Paper - Projeto Ecommerce  :orange_book:
 
-O site Win Paper surgiu a partir de um projeto criado para o módulo de "Programção: Web" no curso de Design na faculdade PUC-SP.
+O site Win Paper surgiu a partir de um projeto criado para o módulo de "Programação: Web" no curso de Design na faculdade PUC-SP.
 
 ![Frame 1](https://user-images.githubusercontent.com/119085196/212963198-4234d184-577e-48d4-a806-9e44da63febb.png)
 
